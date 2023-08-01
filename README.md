@@ -1,43 +1,38 @@
-## Plotly.js with Next.js
+This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
-This is a simple example demonstrating how to use Plotly.js, a powerful charting library, with Next.js, a popular React framework for server-rendered applications. The repository showcases how to integrate interactive and visually appealing charts into your Next.js projects to visualize and analyze data.
+## Getting Started
 
-### Features:
+First, run the development server:
 
-- **Interactive Charts:** Leverage the capabilities of Plotly.js to create interactive charts, such as bar charts, line charts, scatter plots, pie charts, and more.
-- **Responsive Design:** Ensure that the charts are responsive and adapt to various screen sizes for optimal user experience on different devices.
-- **Server-Side Rendering (SSR):** Take advantage of Next.js's server-side rendering for faster initial page loads and improved SEO.
-- **Dynamic Loading:** Implement dynamic imports with Next.js to load the Plotly.js library only on the client-side, reducing the initial page load time.
-- **Customization:** Customize the appearance of the charts, including colors, labels, tooltips, and axes, to match your project's design and branding.
+```bash
+npm run dev
+# or
+yarn dev
+# or
+pnpm dev
+```
 
-### Getting Started:
+Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-1. **Clone the Repository:** Clone this repository to your local machine using `git clone`.
+You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
 
-2. **Install Dependencies:** Navigate to the project directory and install the required dependencies using `npm install` or `yarn install`.
+[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.js`.
 
-3. **Explore the Examples:** The repository includes examples for different types of charts. Feel free to examine the code and modify it to suit your specific data and visualization needs.
+The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
 
-4. **Run the Project:** Start the Next.js development server using `npm run dev` or `yarn dev`. Open your browser and access the app at `http://localhost:3000`.
+This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
 
-### Technologies Used:
+## Learn More
 
-- [Next.js](https://nextjs.org/): A React framework for building server-rendered applications with features like server-side rendering and dynamic imports.
-- [Plotly.js](https://plotly.com/javascript/): An open-source charting library for creating interactive and customizable charts using JavaScript.
-- [React-Plotly.js](https://github.com/plotly/react-plotly.js): A wrapper around Plotly.js for using it as a React component.
+To learn more about Next.js, take a look at the following resources:
 
-### Contributions:
+- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
+- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
 
-Contributions to this repository are welcome! If you have any suggestions, bug fixes, or additional features to add, feel free to create a pull request. Let's work together to enhance this project and make it even more useful for the community.
+You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
 
-### License:
+## Deploy on Vercel
 
-This project is licensed under the [MIT License](LICENSE), so you can freely use and modify it for your own purposes.
+The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
-### Disclaimer:
-
-This repository is intended to serve as a learning resource and starting point for integrating Plotly.js with Next.js. It may not cover all advanced features or use cases. Always refer to the official documentation for Plotly.js and Next.js for comprehensive usage instructions.
-
----
-
-Feel free to use this description as a starting point for your GitHub repository. Customize it further with specific details about your project and add relevant sections like installation instructions, code examples, and a contribution guide. Happy coding!
+Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
